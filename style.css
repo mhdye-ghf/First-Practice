@@ -1,4 +1,10 @@
 .pclassname{
     color: palevioletred;
 }
-
+.color{
+    background-color: rgb(202, 47, 122);
+    color: azure;
+    border: 2px dashed black;
+    padding: 30px;
+    margin: 20px;
+}
