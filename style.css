@@ -8,3 +8,25 @@
     padding: 30px;
     margin: 20px;
 }
+
+ul{
+    direction: rtl;
+    list-style:none;
+    padding: 0;
+    background-color: #5f5f5f;   
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    color: beige;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 16px;
+}
+
+li a:hover{
+    background-color: rgb(11, 0, 0);
+}
