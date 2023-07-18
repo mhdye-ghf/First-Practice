@@ -51,7 +51,9 @@
               Laboriosam magni qui voluptas minima? Libero perspiciatis quia provident ariatur.</pre
     >
 
-    <a href="https://darsman.com/" title="This is a link">لینک آموزش درسمن</a>
+    <a href="https://darsman.com/" title="This is a link" target="_blank">
+      (hold mouse)لینک آموزش درسمن</a
+    >
     <hr />
     <img
       src="https://logopond.com/logos/89290afb3f121c629883cf7e0038a6c2.png"
@@ -71,7 +73,7 @@
       nesciunt quisquam veritatis hic
     </p>
     <pre style="text-align: center; font-size: 50px; font-family: fantasy">
-. Eius laborum adritatis minus ab voluptates corrupti.</pre
+    . Eius laborum adritatis minus ab voluptates corrupti.</pre
     >
 
     <a href="https://www.w3schools.com/html/html_attributes.asp"
@@ -156,5 +158,72 @@
       </p>
     </div>
 
+    <button type="button" onclick="myFunction()">Click on Me!</button>
+    <p id="demo">this is a dmontration.</p>
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Hello Word!";
+      }
+    </script>
+    <hr />
+
+    <img src="images-1.jpg" alt=" alt txt" ; />
+
+    <p id="color">This text can change if you click the button below!</p>
+    <script>
+      function thisFunc() {
+        document.getElementById("color").style.color = "yellow";
+        document.getElementById("color").style.backgroundColor = "green";
+        document.getElementById("color").style.fontSize = "25px";
+      }
+    </script>
+    <button type="button" onclick="thisFunc()">click here *-*</button>
+    &nbsp; &nbsp; <br />
+
+    <a href="product.html" target="_blank">click here!!! To see a new Tab</a>
+    <hr />
+    <table>
+      <thead>
+        <tr>
+          <th>Fname</th>
+          <th>Lname</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>mahdi</td>
+          <td>saljoughi</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td>mahdiye</td>
+          <td>ghafari</td>
+          <td>20</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <form dir="rtl">
+      <label for="fname">نام : </label>
+      <input id="fname" type="text" /><br />
+
+      <label for="lname">نام خانوادگی : </label>
+      <input id="lname" type="text" /><br />
+
+      <label for="pass">رمزعبور : </label>
+      <input id="pass" type="password" /><br />
+
+      <input id="file" type="file" /><br />
+      <input type="color" /><br />
+      <input type="date" /><br />
+
+      <input type="submit" /><br />
+      <select name="" id="">
+        <option value="">html</option>
+        <option selected value="">css</option>
+        <option value="">js</option>
+      </select>
+    </form>
   </body>
 </html>
